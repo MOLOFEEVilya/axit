@@ -1,9 +1,9 @@
 .base {
-    width: 1170px;
-    height: 540px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.block1__tab4 {
+.tabs__tab4 {
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
     width: 500px;
@@ -13,7 +13,7 @@
     line-height: 40px;
 }
 
-.block1__tab3 {
+.tabs__tab3 {
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
     width: 184px;
@@ -24,7 +24,7 @@
     line-height: 40px;
 }
 
-.block1__tab2 {
+.tabs__tab2 {
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
     width: 184px;
@@ -35,7 +35,7 @@
     line-height: 40px;
 }
 
-.block1__tab1 {
+.tabs__tab1 {
     display: inline-block;
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -48,7 +48,7 @@
     line-height: 40px;
 }
 
-.block1-1 {
+.info-block {
     display: inline-block;
     width: 660px;
     height: 500px;
@@ -56,7 +56,7 @@
     border-bottom: 1px solid #C6CBCD;
 }
 
-.block1-1__title {
+.info-block__title {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -65,7 +65,7 @@
     margin: 47px 0 74px 70px;
 }
 
-.block1-1__info {
+.info-block__text {
     font-size: 18px;
     font-family: 'Raleway';
     font-style: normal;
@@ -75,7 +75,7 @@
     margin: 0px 0px 0px 70px;
 }
 
-.block1-1__link {
+.info-block__link {
     display: block;
     width: 270px;
     height: 58px;

@@ -1,31 +1,31 @@
-.block2 {
+.awesome {
     width: 1170px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
 
-.block2__title {
+.awesome__title {
     margin-bottom: 50px;
     font-weight: 100;
     font-size: 36px;
 }
 
-.block2__info {
+.awesome__info {
     margin-top: 50px;
     font-weight: 100;
     font-size: 18px;
     color: #86878B;
 }
 
-.block2__img {
+.awesome__img {
     width: 142px;
     height: 1px;
     border-bottom: 1px solid #EC7979;
     margin: 0 auto;
 }
 
-.block2__block-with-categories {
+.awesome__block-with-categories {
     width: 100%;
 }
 
