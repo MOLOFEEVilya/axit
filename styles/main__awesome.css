@@ -3,7 +3,7 @@
     height: 540px;
 }
 
-.block__tab4 {
+.block1__tab4 {
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
     width: 500px;
@@ -13,7 +13,7 @@
     line-height: 40px;
 }
 
-.block__tab3 {
+.block1__tab3 {
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
     width: 184px;
@@ -24,7 +24,7 @@
     line-height: 40px;
 }
 
-.block__tab2 {
+.block1__tab2 {
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
     width: 184px;
@@ -35,7 +35,7 @@
     line-height: 40px;
 }
 
-.block__tab1 {
+.block1__tab1 {
     display: inline-block;
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -48,7 +48,7 @@
     line-height: 40px;
 }
 
-.base__block1 {
+.block1-1 {
     display: inline-block;
     width: 660px;
     height: 500px;
@@ -56,7 +56,7 @@
     border-bottom: 1px solid #C6CBCD;
 }
 
-.block__title {
+.block1-1__title {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -65,7 +65,7 @@
     margin: 47px 0 74px 70px;
 }
 
-.block-with-text__info1 {
+.block1-1__info {
     font-size: 18px;
     font-family: 'Raleway';
     font-style: normal;
@@ -75,7 +75,7 @@
     margin: 0px 0px 0px 70px;
 }
 
-.block__link {
+.block1-1__link {
     display: block;
     width: 270px;
     height: 58px;
