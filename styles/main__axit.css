@@ -2,13 +2,19 @@
     width: 1170px;
     margin: 0 auto;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+}
+
+.awesome__preamble {
+    font-family: 'Raleway';
+    justify-content: center;
+    text-align: center;
 }
 
 .awesome__title {
-    margin-bottom: 50px;
     font-weight: 100;
     font-size: 36px;
+    margin: 50px 0;
 }
 
 .awesome__info {
@@ -33,11 +39,13 @@
     display: inline-block;
     width: 370px;
     margin-top: 20px;
+    margin-bottom: 58px;
     padding: 0px 15px;
     box-sizing: border-box;
 }
 
 .block-with-category__title {
+    font-family: 'Open Sans';
     font-weight: bold;
     font-size: 24px;
 }
