@@ -1,5 +1,6 @@
 .awesome {
     width: 1170px;
+    height: 628px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Raleway';
@@ -8,7 +9,7 @@
 .awesome__preamble {
     font-family: 'Raleway';
     justify-content: center;
-    text-align: center;
+    text-align: center; 
 }
 
 .awesome__title {
@@ -18,7 +19,7 @@
 }
 
 .awesome__info {
-    margin-top: 50px;
+    margin: 50px 0;
     font-weight: 100;
     font-size: 18px;
     color: #86878B;
