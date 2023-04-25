@@ -22,6 +22,7 @@
     <title>AXIT</title>
 </head>
 <body>
+    <header>
 <!-- header -->
 <div class="header">
     <div class="header__conteiner">
@@ -29,15 +30,17 @@
             <img src="./img/logo.png" class="icon__logo">
         </div>
         <div class="conteinet__nav">
-            <a class="nav__link features">Features</a>
-            <a class="nav__link About">About</a>
-            <a class="nav__link Pricing">Pricing</a>
-            <a class="nav__link Reviews">Reviews</a>
-            <a class="nav__link Contact">Contact</a>
+            <a class="nav__link">Features</a>
+            <a class="nav__link">About</a>
+            <a class="nav__link">Pricing</a>
+            <a class="nav__link">Reviews</a>
+            <a class="nav__link">Contact</a>
         </div>
     </div>
 </div>
+</header>
 <!-- frontpage -->
+<main>
 <div class="frontpage">
     <div class="frontpage__conteiner">
         <div class="conteiner__title">
@@ -51,19 +54,10 @@
         </div>
         <form class="conteiner__conteiner-with-form">
             <div class="conteiner-with-form__title">TRY YOUR FREE TRIAL TODAY</div>
-                <label class="title__form-with-label">Name
-                    <input name="firstname">
-                </label><!--
-                --><div class="title__solid"></div>
-                <label class="title__form-with-label">Email
-                    <input name="Email">
-                </label><!--
-                --><div class="title__solid"></div>
-                <label class="title__form-with-label">Password
-                    <input name="Password">
-                </label><!--
-                --><div class="title__solid"></div>
-                <a class="form-with-label__do-it">Get Started</a>
+                    <input class="title__input-form" name="firstname" placeholder="Name">
+                    <input class="title__input-form" name="Email" placeholder="Email">
+                    <input class="title__input-form" name="Password" placeholder="Password">
+                <button type="submit" class="form-with-label__do-it">Get Started</button>
         </form>
     </div>
 </div>
@@ -87,25 +81,27 @@
 </div>
 <!-- axit -->
 <div class="awesome">
-    <div class="awesome-first__tabs">
-            <div class="tabs__tab1">TAB 1</div><!--
-        --><div class="tabs__tab2">TAB 2</div><!--
-        --><div class="tabs__tab3">TAB 3</div><!--
-        --><div class="tabs__tab4"></div>
+    <div class="awesome__conteiner">
+        <div class="conteiner__tabs">
+                <div class="tabs__tab1">TAB 1</div><!--
+            --><div class="tabs__tab2">TAB 2</div><!--
+            --><div class="tabs__tab3">TAB 3</div><!--
+            --><div class="tabs__tab4"></div>
+        </div>
+        <div class="conteiner__info-block">
+            <h3 class="info-block__title">Tabs with soft transitioning effect.</h3>
+            <h5 class="info-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean <br>euismod<br>
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br>viverra<br> 
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                <br>penatibus et magnis dis parturient montes.
+                <br><br>
+                <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>euismod<br> 
+                bibendum laoreet.<br></h5>
+            <a class="info-block__link">Download</a>
+        </div><!--
+        --><img class="conteiner__picture" src="./img/Rectangle 111.png" class="awesome__picture">
     </div>
-    <div class="info-block">
-        <h3 class="info-block__title">Tabs with soft transitioning effect.</h3>
-        <h5 class="info-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Aenean <br>euismod<br>
-            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br>viverra<br> 
-            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-            <br>penatibus et magnis dis parturient montes.
-            <br><br>
-            <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>euismod<br> 
-            bibendum laoreet.<br></h5>
-        <a class="info-block__link">Download</a>
-    </div><!--
-    --><img class="picture" src="./img/Rectangle 111.png" class="awesome__picture">
 </div>
 <!-- awesome -->
 <div class="awesome-second">
@@ -184,42 +180,43 @@
         <h5 class="awesome__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
     </div>
     <div class="block-with-manager__saying">
-        <div class="saying__block-with-text">
-            <span class="block-with-text__info">Lorem ipsum dolor sit amet,<br> 
-            consectetur adipisicing elit. Doloribus<br> 
-            accusamus expedita repellat similique<br> 
-            odio aspernatur ex, architecto eaque<br>
-            quo suscipit.</span>
+            <div class="saying__block-with-text">
+                <span class="block-with-text__info">Lorem ipsum dolor sit amet,<br> 
+                consectetur adipisicing elit. Doloribus<br> 
+                accusamus expedita repellat similique<br> 
+                odio aspernatur ex, architecto eaque<br>
+                quo suscipit.</span>
+            </div><!--
+        --><div class="saying__block-with-text midle">
+                <span class="block-with-text__info">Lorem ipsum dolor sit amet,<br> 
+                consectetur adipisicing elit. Doloribus<br> 
+                accusamus expedita repellat similique<br> 
+                odio aspernatur ex, architecto eaque<br>
+                quo suscipit.</span>
+            </div><!--
+        --><div class="saying__block-with-text">
+                <span class="block-with-text__info">Lorem ipsum dolor sit amet,<br> 
+                consectetur adipisicing elit. Doloribus<br> 
+                accusamus expedita repellat similique<br> 
+                odio aspernatur ex, architecto eaque<br>
+                quo suscipit.</span>
+            </div>
+        
+        <div class="block-with-manager__managers">
+            <img class="managers__icon" src="./img/Ellipse 7.png">
+            <h4 class="managers__name">Davis Rhiel Madsen</h4>
+            <h5 class="managers__status">Manager</h5>
         </div><!--
-    --><div class="saying__block-with-text midle">
-            <span class="block-with-text__info">Lorem ipsum dolor sit amet,<br> 
-            consectetur adipisicing elit. Doloribus<br> 
-            accusamus expedita repellat similique<br> 
-            odio aspernatur ex, architecto eaque<br>
-            quo suscipit.</span>
+        --><div class="block-with-manager__managers midle">
+            <img class="managers__icon" src="./img/Ellipse 7 (1).png">
+            <h4 class="managers__name">Cooper Dorwart</h4>
+            <h5 class="managers__status-midle">Manager</h5>
         </div><!--
-    --><div class="saying__block-with-text">
-            <span class="block-with-text__info">Lorem ipsum dolor sit amet,<br> 
-            consectetur adipisicing elit. Doloribus<br> 
-            accusamus expedita repellat similique<br> 
-            odio aspernatur ex, architecto eaque<br>
-            quo suscipit.</span>
+        --><div class="block-with-manager__managers">
+            <img class="managers__icon" src="./img/Ellipse 7 (2).png">
+            <h4 class="managers__name">Davis Rhiel Madsen</h4>
+            <h5 class="managers__status">Manager</h5>
         </div>
-    </div>
-    <div class="block-with-manager__managers">
-        <img class="managers__icon" src="./img/Ellipse 7.png">
-        <h4 class="managers__name">Davis Rhiel Madsen</h4>
-        <h5 class="managers__status">Manager</h5>
-    </div><!--
-    --><div class="block-with-manager__managers midle">
-        <img class="managers__icon" src="./img/Ellipse 7 (1).png">
-        <h4 class="managers__name">Cooper Dorwart</h4>
-        <h5 class="managers__status-midle">Manager</h5>
-    </div><!--
-    --><div class="block-with-manager__managers">
-        <img class="managers__icon" src="./img/Ellipse 7 (2).png">
-        <h4 class="managers__name">Davis Rhiel Madsen</h4>
-        <h5 class="managers__status">Manager</h5>
     </div>
 </div>
 <!-- banner -->
@@ -243,30 +240,18 @@
         </div>
         <form class="conteiner__conteiner-form">
             <div class="conteiner-form__block-left">
-                <label class="block-left__form-label">Name
-                    <input name="firstname">
-                </label><!--
-                --><div class="block-left__solid"></div>
-                <label class="block-left__form-label">Email
-                    <input name="Email">
-                </label><!--
-                --><div class="block-left__solid"></div>
-                <label class="block-left__form-label">Password
-                    <input name="Password">
-                </label><!--
-                --><div class="block-left__solid"></div>
+                <input class="block-left__inputs" name="firstname" placeholder="Name">
+                <input class="block-left__inputs" name="Email" placeholder="Email">
+                <input class="block-left__inputs" name="Password" placeholder="Password">
             </div>
-            <div class="container-form__block-right">
-                <label class="block-right__form-label">Message
-                    <input name="text">
-                </label><!--
-                --><div class="block-right__solid"></div>
-            </div>
-            <a class="conteiner-form__link-message">Send Message</a>
+                <textarea class="block-left__textarea" placeholder="Message"></textarea>
+            <button class="conteiner-form__link-message" type="submit">Send Message</button>
         </form>
     </div>
 </div>
+</main>
 <!-- footer -->
+<footer>
 <div class="footer">
     <div class="footer__conteiner">
         <div class="conteiner__block-with-icon">
@@ -281,6 +266,7 @@
         <span class="conteiner__info-date">© 2015 Axure Themes</span>
     </div>
 </div>
+</footer>
 </body>
 </html> 
 

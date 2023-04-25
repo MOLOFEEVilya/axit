@@ -6,14 +6,17 @@
     font-family: 'Raleway';
 }
 .block-with-manager__saying {
-    width: 100%;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .saying__block-with-text {
     display: inline-block;
     width: 368px;
     height: 180px;
-    margin-top: 4px;
     background-color: #E2E2E2;
     border-radius: 10px;
     font-family: 'Raleway';
@@ -28,10 +31,6 @@
 .block-with-text__info {
     position: relative;
     top: 38px;
-}
-
-.midle {
-    margin: 0 30px;
 }
 
 .block-with-manager__managers {

@@ -17,8 +17,7 @@
 
 .conteiner__title {
     width: 670px;
-    position: relative;
-    left: 30px;
+    margin-left: 10px;
 }
 
 .title__logo {
@@ -87,9 +86,7 @@
     height: 450px;
     background-color: white;
     border-radius: 10px;
-    position: relative;
-    left: 30px;
-    top: -40px;
+    margin-top: 20px;
 }
 
 .conteiner-with-form__title {
@@ -100,38 +97,36 @@
     line-height: 33px;
     width: 376px;
     height: 90px;
-    position: relative;
-    left: 70px;
-    top: 25px;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
+    margin-left: 50px;
     color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.title__form-with-label {
-    font-family: 'Open Sans';
+.title__input-form {
+    width: 370px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bdbdbd;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+    display: flex;
+    align-items: center;
     color: #BDBDBD;
-    position: relative;
-    left: 50px;
-}
-
-.title__solid {
-    width: 370px;
-    height: 3px;
-    border-bottom: 1px solid #BDBDBD;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    left: 50px;
+    margin: 50px 50px;
 }
 
 .form-with-label__do-it {
     display: block;
+    border: none;
     width: 470px;
     height: 60px;
+    margin-top: 85px;
     background-color: #EC7979;
     font-family: 'Open Sans';
     font-style: normal;
@@ -140,8 +135,6 @@
     line-height: 20px;
     color: white;
     border-radius: 0 0 10px 10px;
-    position: relative;
-    top: 53px;
     display: flex;
     align-items: center;
     justify-content: center;
