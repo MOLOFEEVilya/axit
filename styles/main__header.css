@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    background-color: black;
+    height: 75px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway';
+
+}
+
+.header__conteiner {
+    width: 1170px;
+    height: 75px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+    text-align: start;
+    display: flex;
+}
+
+.conteiner__icon {
+    width: 50%;
+}
+
+.conteinet__nav {
+    width: 50%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+}

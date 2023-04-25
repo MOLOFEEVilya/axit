@@ -1,11 +1,17 @@
-.base__block-with-price {
+.block-with-price {
+    width: 100%;
     background-color: #F5F5F5;
-    height: 770px;
+    height: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway';
 }
 
 .block-with-price__block-with-offer {
     display: flex;
-    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 1170px;
     height: 510px;
     justify-content: space-between;
 }
@@ -27,8 +33,8 @@
     justify-content: center;
     background-color: #333333;
     border: 2px solid #F5F5F5;
-    width: 370px;
-    height: 60px;
+    width: 367px;
+    height: 57px;
 }
 
 .container__items-price {
@@ -44,8 +50,8 @@
     justify-content: center;
     background-color: #333333;
     border: 2px solid #F5F5F5;
-    width: 370px;
-    height: 100px;
+    width: 367px;
+    height: 97px;
 }
 
 .container__items-free {
@@ -61,8 +67,8 @@
     justify-content: center;
     background-color: #333333;
     border: 2px solid #F5F5F5;
-    width: 370px;
-    height: 50px;
+    width: 367px;
+    height: 47px;
 }
 
 .container__items {
@@ -79,7 +85,7 @@
     text-align: center;
     justify-content: center;
     height: 50px;
-    width: 370px;
+    width: 367px;
 }
 
 .second {
