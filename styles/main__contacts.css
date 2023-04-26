@@ -17,6 +17,7 @@
     height: 370px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .conteiner-form__block-left {
@@ -58,9 +59,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    position: relative;
-    top: -45px;
-    left: 400px;
+    cursor: pointer;
 }
 
 .block-left__textarea {
