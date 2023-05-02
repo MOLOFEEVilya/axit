@@ -2,7 +2,6 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    height: 140px;
     background-image: url("/img/bg\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,25 +9,30 @@
     display: inline-block;
 }
 
-.block-with-social__conteiner {
+.block-with-social-container {
     width: 1170px;
-    margin: 0 auto;
     height: 140px;
+    margin: 0 auto;
     display: flex;
 }
 
 .text-info__title {
+    width: 402px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
     color: #333333;
-    display: flex;
-    padding: 18px 0;
 }
 
 .text-info__text {
+    width: 402px;
+    height: 42px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -38,10 +42,10 @@
     text-align: left;
     color: #86878B;
     width: 470px;
-    margin-right: 50px;
+    margin: 18px 50px 0 0;
 }
 
-.conteiner__conteiner-with-icons {
+.block-with-social-container__container-with-icons {
     width: 650px;
     height: 140px;
     display: flex;
@@ -49,7 +53,55 @@
     align-items: center;
 }
 
-.conteiner-with-icons__icon {
+.container-with-icons__icon {
     width: 70px;
     height: 70px;
+}
+
+@media (max-width: 1170px) {
+    .block-with-social-container {
+        width: 100%;
+        height: 105px;
+    }
+    .text-info__title {
+        height: 45px;
+        font-size: 18px;
+        margin: 2px 20px 0 16px;
+    }
+    .text-info__text {
+        height: 32px;
+        font-size: 14px;
+        margin: 13px 20px 0 16px;
+    }
+    .block-with-social-container__container-with-icons {
+        height: 105px;
+    }
+    .container-with-icons__icon {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (max-width: 320px) {
+    .block-with-social-container {
+        height: 239px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .text-info__title {
+        width: 287px;
+    }
+    .text-info__text {
+        width: 271px;
+        height: 48px;
+    }
+    .block-with-social-container__container-with-icons {
+        width: 290px;
+    }
+    .container-with-icons__icon {
+        width: 26px;
+        height: 26px;
+    }
 }

@@ -1,13 +1,12 @@
 .frontpage {
     width: 100%;
-    height: 951px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg.png');
 }
 
-.frontpage__conteiner {
+.frontpage-container {
     width: 1170px;
     height: 951px;
     margin: 0 auto;
@@ -15,32 +14,36 @@
     align-items: center;
 }
 
-.conteiner__title {
+.frontpage-container__title {
     width: 670px;
-    margin-left: 10px;
 }
 
 .title__logo {
-    margin-bottom: 40px;
+    margin-bottom: 75px;
+}
+
+.logo__axit {
+    width: 270px;
+    height: 100px;
 }
 
 .title__text {
+    width: 670px;
+    height: 168px;
     color: white;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 56px;
-    width: 670px;
-    height: 168px;
 }
 
 .title__img {
     width: 170px;
     height: 1px;
     border-bottom: 1px solid #FFFFFF;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 55px;
+    margin-bottom: 45px;
 }
 
 .title__span-info {
@@ -54,6 +57,8 @@
 }
 
 .title__comments {
+    width: 270px;
+    height: 42px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -80,16 +85,16 @@
     cursor: pointer;
 }
 
-.conteiner__conteiner-with-form {
+.frontpage-container__container-with-form {
     display: block;
     width: 470px;
     height: 450px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-bottom: 110px;
 }
 
-.conteiner-with-form__title {
+.container-with-form__title {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -97,12 +102,11 @@
     line-height: 33px;
     width: 376px;
     height: 90px;
-    margin-bottom: 50px;
-    margin-left: 50px;
     color: #333333;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 50px 0 53px;
 }
 
 .title__input-form {
@@ -139,4 +143,104 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.title__word {
+    color:#EC7979;
+}
+
+@media (max-width: 1170px) {
+    .frontpage-container {
+        width: 100%;
+        height: 695px;
+    }
+    .frontpage-container__title {
+        margin: 0 36px 0 115px ;
+    }
+    .title__text {
+        font-size: 36px;
+        width: 455px;
+        height: 126px;
+    }
+    .logo__axit {
+        width: 180px;
+        height: 75px;
+    }
+    .title__logo {
+        margin-bottom: 40px;
+    }
+    .title__img {
+        width: 115px;
+        margin-top: 42px;
+        margin-bottom: 31px;
+    }
+    .title__comments {
+        font-size: 14px;
+        width: 183px;
+        height: 32px;
+    }
+    .title__link {
+        width: 183px;
+        height: 50px;
+        margin-top: 32px;
+    }
+    .frontpage-container__container-with-form {
+        margin: 0 20px 0 40px;
+        width: 398px;
+    }
+    .container-with-form__title {
+        font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1170 - 320)));
+        width: 298px;
+    }
+    .title__input-form {
+        width: 298px;
+    }
+    .form-with-label__do-it {
+        width: 398px;
+    }
+}
+
+@media (max-width: 320px) {
+    .frontpage-container {
+        height: 1005px;
+        display: flex;
+        flex-flow: wrap;
+    }
+    .frontpage-container__title {
+        margin: 0 16px 0 16px ;
+        width: 288px;
+        text-align: center;
+        align-items: center;
+    }
+    .title__text {
+        height: 168px;
+    }
+    .title__logo {
+        display: none;
+    }
+    .title__img {
+        width: 134px;
+        margin: 45px 0 42px 75px;
+    }
+    .title__link {
+        width: 288px;
+        margin-top: 42px;
+    }
+    .frontpage-container__container-with-form {
+    width: 288px;
+    height: 381px;
+    margin: 0 16px;
+    }
+    .container-with-form__title {
+        width: 240px;
+        margin: 0 28px 0 20px;
+    }
+    .title__input-form {
+        width: 240px;
+        margin: 0 28px 50px 20px; 
+    }
+    .form-with-label__do-it {
+        width: 288px;
+        margin-top: 66px;
+    }
 }

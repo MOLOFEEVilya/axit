@@ -1,19 +1,34 @@
 .block-with-manager {
     width: 100%;
-    height: 774px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Raleway';
 }
-.block-with-manager__saying {
+
+.block-with-manager-container {
     width: 1170px;
+    height: 774px;
+}
+
+.saying {
+    width: 1170px;
+    height: 336px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
-.saying__block-with-text {
+.block-with-text {
+    width: 370px;
+}
+
+.block-with-text__manager-first {
+    /* display: inline-block; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.block-with-text__info {
     display: inline-block;
     width: 368px;
     height: 180px;
@@ -23,26 +38,19 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
     text-align: center;
     color: #86878B;
-}
-
-.block-with-text__info {
-    position: relative;
-    top: 38px;
 }
 
 .block-with-manager__managers {
     display: inline-block;
     width: 370px;
     margin-top: 66px;
+    height: 87px;
 }
 
 .managers__name {
     display: inline-block;
-    position: relative;
-    top: -36px;
     margin-left: 22.5px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -50,10 +58,7 @@
     font-size: 24px;
 }
 
-.managers__status {
-    position: relative;
-    top: -80px;
-    left: -38.5px;
+.left {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -61,10 +66,7 @@
     line-height: 16px;
 }
 
-.managers__status-midle {
-    position: relative;
-    top: -80px;
-    left: -17.5px;
+.right {  
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -72,7 +74,30 @@
     line-height: 16px;
 }
 
-.saying__block-with-text::after {
+.midle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.block-with-text__manager-first::before {
+    content: url("../img/Ellipse 7.png");
+    display: inline-block;
+}
+
+.block-with-text__manager-seconde::before {
+    content: url("../img/Ellipse\ 7\ \(1\).png");
+    display: block;
+}
+
+.block-with-text__manager-therd::before {
+    content: url("../img/Ellipse\ 7\ \(2\).png");
+    display: block;
+}
+
+.block-with-text::after {
     content: " ";
     width: 30px;
     height: 30px;
@@ -82,4 +107,28 @@
     position: relative;
     top: 55px;
     left: 70px;
+}
+
+@media (max-width: 1170px) {
+    .block-with-manager-container {
+        width: 100%;
+    }
+    .saying {
+        width: 100%;
+        margin: 0 16px;
+    }
+    .saying__block-with-text{
+        width: 317px;
+    }
+    .block-with-text__info {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        height: 80px;
+        top: 45px;
+    }
+    .saying__block-with-text::after {
+        top: 75px;
+        left: 65px;
+    }
 }
