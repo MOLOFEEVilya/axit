@@ -93,7 +93,7 @@
         width: 992px;
         height: 120px;
         font-size: 24px;
-        margin: 0 16px;
+        margin: 0;
     }
     .awesome-preamble__img {
         width: 142px;
@@ -145,17 +145,17 @@
         width: 288px;
         font-size: 24px;
         font-size: 18px;
-        margin: 0 auto;
+        margin: 0;
     }
     .awesome-preamble__img {
         width: 134px;
-        margin: 0 auto;
+        margin: 0 0 0 77px;
     }
     .awesome-preamble__info {
         width: 288px;
         height: 30px;
         font-size: 13px;
-        margin-top: 25px;
+        margin: 25px 0;
     }
     .block-with-categories {
         flex-flow: column;

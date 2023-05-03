@@ -91,11 +91,15 @@
         flex-flow: column;
     }
     .text-info__title {
+        display: inline-block;
         width: 287px;
+        margin-top: 30px;
     }
     .text-info__text {
+        display: inline-block;
         width: 271px;
         height: 48px;
+        text-align: center;
     }
     .block-with-social-container__container-with-icons {
         width: 290px;

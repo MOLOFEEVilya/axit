@@ -1,6 +1,5 @@
 .banner {
     width: 100%;
-    height: 442px;
     margin: 0 auto;
     text-align: center;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg\ \(2\).png');
@@ -10,10 +9,15 @@
     display: inline-block;
 }
 
-.conteiner__preamble {
+.banner-container {
     width: 1170px;
     height: 442px;
     margin: 0 auto;
+}
+
+.container-preamble {
+    height: 342px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +25,7 @@
     flex-direction: column;
 }
 
-.conteiner__title-banner {
+.container__title-banner {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -36,14 +40,14 @@
     color: #FFFFFF;
 }
 
-.conteiner__img-banner {
+.container__img-banner {
     width: 142px;
     height: 1px;
     border-bottom: 1px solid #FFFFFF;
     margin: 0 auto;
 }
 
-.conteiner__info-banner {
+.container__info-banner {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -54,7 +58,7 @@
     margin-top: 40px;
 }
 
-.conteiner__link-banner {
+.container__link-banner {
     width: 370px;
     height: 58px;
     border: 2px solid #FFFFFF;
@@ -69,4 +73,49 @@
     justify-content: center;
     margin-top: 40px;
     cursor: pointer;
+}
+
+@media (max-width: 1170px) {
+    .banner-container {
+        width: 100%;
+        height: 358px;
+        margin: 40px 16px;
+    }
+    .container__title-banner {
+        width: 992px;
+        height: 120px;
+        font-size: 24px;
+    }
+    .container__info-banner {
+        width: 992px;
+        height: 16px;
+        font-size: 14px;
+    }
+    .container__link-banner {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner {
+        margin-top: 32px;
+    }
+    .banner-container {
+        height: 358px;
+        margin: 0;
+    }
+    .container__title-banner {
+        width: 288px;
+        height: 120px;
+        margin: 0;
+    }
+    .container__info-banner {
+        width: 288px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .container__link-banner {
+        width: 287px;
+        height: 50px;
+    }
 }

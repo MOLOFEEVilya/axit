@@ -1,18 +1,17 @@
 .contact {
     width: 100%;
-    height: 610px;
     margin: 0 auto;
     text-align: center;
 }
 
-.contact__conteiner {
+.contact-container {
     width: 1170px;
     height: 610px;
     margin: 0 auto;
     text-align: center;
 }
 
-.conteiner__conteiner-form {
+.container__container-form {
     width: 1170px;
     height: 370px;
     display: flex;
@@ -20,7 +19,7 @@
     justify-content: center;
 }
 
-.conteiner-form__block-left {
+.container-form__block-left {
     width: 570px;
     height: 210px;
 }
@@ -48,7 +47,7 @@
 }
 
 
-.conteiner-form__link-message {
+.container-form__link-message {
     width: 370px;
     height: 58px;
     border: none;
