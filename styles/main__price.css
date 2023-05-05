@@ -99,14 +99,14 @@
 
 @media (max-width: 1170px) {
     .block-with-price-container {
-        width: 100%;
+        width: 95%;
         height: 770px;
-        margin: 0 16px;
+        margin: 0 auto;
     }
     .block-with-offer {
         width: 100%;
         height: 463px;
-        margin: 0;
+        margin: 0 auto;
     }
     .block-with-offer__container {
         width: 315px;
@@ -134,10 +134,9 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .block-with-price-container {
         height: 1480px;
-        margin: 0 16px;
     }
     .block-with-offer {
         flex-flow: column;

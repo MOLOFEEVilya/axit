@@ -1,6 +1,12 @@
 body {
     margin: 0;
 }
+main {
+    margin: 0;
+}
+footer {
+    margin: 0;
+}
 
 .header {
     width: 100%;
@@ -57,7 +63,7 @@ body {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .nav__link {
         display: none;
     }

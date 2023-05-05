@@ -78,10 +78,10 @@
 
 @media (max-width: 1170px) {
     .awesome {
-        margin: 0 auto;
+        margin: 0;
     }
     .awesome-container {
-        width: 100%;
+        width: 95%;
         height: 518px;
         margin: 50px 0;
     }
@@ -90,28 +90,28 @@
         margin-bottom: 50px;
     }
     .awesome-preamble__title {
-        width: 992px;
+        width: 100%;
         height: 120px;
         font-size: 24px;
-        margin: 0;
+        margin: 0 auto;
     }
     .awesome-preamble__img {
         width: 142px;
-        margin: 0 441px 32px 441px;
+        margin: 0 auto;
     }
     .awesome-preamble__info {
-        width: 983px;
+        width: 100%;
         height: 16px;
         font-size: 14px;
-        margin: 0 20px;
+        margin: 40px 0;
     }
     .block-with-categories {
         width: 100%;
         height: 310px;
-        margin: 0 16px;
+        margin: 0 auto;
     }
     .category {
-        width: 318px;
+        width: 100%;
         height: 310px;
     }
     .category__icon {
@@ -119,7 +119,7 @@
         height: 147px;
     }
     .category__title {
-        width: 318px;
+        width: 100%;
         height: 82px;
         font-size: 18px;
         margin: 0 21px 17px 0;
@@ -136,37 +136,30 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .awesome-container {
         height: 1200px;
-        margin: 0 16px;
+        margin: 0 auto;
     }
     .awesome-preamble__title {
-        width: 288px;
-        font-size: 24px;
         font-size: 18px;
-        margin: 0;
     }
     .awesome-preamble__img {
         width: 134px;
-        margin: 0 0 0 77px;
     }
     .awesome-preamble__info {
-        width: 288px;
-        height: 30px;
         font-size: 13px;
-        margin: 25px 0;
     }
     .block-with-categories {
         flex-flow: column;
         margin: 0;
     }
     .category {
-        width: 288px;
+        width: 100%;
         height: 318px;
     }
     .category__title {
-        width: 288px;
+        width: 100%;
         height: 82px;
         font-size: 18px;
         margin: 0;
@@ -177,7 +170,7 @@
     }
     .category__text {
         display: block;
-        width: 284px;
+        width: 100%;
         height: 80px;
         font-size: 14px;
         margin: 10px 0;

@@ -118,9 +118,9 @@
 
 @media (max-width: 1170px) {
     .axit-container {
-        width: 100%;
+        width: 95%;
         height: 425px;
-        margin: 0 16px;
+        margin: 0 auto;
     }
     .axit-container__tabs {
         width: 100%;
@@ -129,33 +129,33 @@
         width: 100%;
     }
     .tabs__tab4 {
-        width: 508px;
+        width: 38%;
     }
     .tabs__tab3 {
-        width: 156px;
+        width: 19%;
     }
     .tabs__tab2 {
-        width: 156px;
+        width: 19%;
     }
     .tabs__tab1 {
-        width: 156px;
+        width: 19%;
     }
     .axit-container__info-block {
-        width: 593px;
+        width: 60%;
         height: 386px;
     }
     .axit-container__picture {
-        width: 398px;
+        width: 35%;
         height: 385px;
     }
     .info-block__title {
-        width: 483px;
+        width: 85%;
         height: 89px;
         margin-left: 85px;
         font-size: 24px;
     }
     .info-block__text {
-        width: 483px;
+        width: 80%;
         height: 112px;
         margin-left: 85px;
         font-size: 14px;
@@ -168,7 +168,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .axit-container {
         height: 470px;
     }
@@ -178,29 +178,21 @@
     .axit-container__picture {
         display: none;
     }
-    .tabs__tab1 {
-        width: 103px;
-    }
-    .tabs__tab2 {
-        width: 93px;
-    }
-    .tabs__tab3 {
-        width: 93px;
-    }
     .info-block__title {
-        width: 243px;
+        width: 70%;
         height: 112px;
         font-size: 18px;
-        margin: 0 20.5px 29px 24.5px;
+        margin: 0 auto;
         display: flex;
         text-align: center;
         align-items: center;
+        justify-content: center;
     }
     .info-block__text {
-        width: 243.5px;
+        width: 90%;
         height: 180px;
         font-size: 13px;
-        margin: 0 20.5px 29px 24.5px;
+        margin: 20px 10px;
         display: flex;
         text-align: center;
         align-items: center;
@@ -208,11 +200,20 @@
     .info-block__link {
         width: 243.5px;
         height: 50px;
-        margin: 0 20.5px 30px 24.5px;
+        margin: 0 auto;
     }
     .axit-container__info-block {
-        width: 288px;
+        width: 100%;
         height: 431px;
         border-right: 1px solid #C6CBCD;
+    }
+    .tabs__tab3 {
+        width: 32.3%;
+    }
+    .tabs__tab2 {
+        width: 33.3%;
+    }
+    .tabs__tab1 {
+        width: 33.3%;
     }
 }

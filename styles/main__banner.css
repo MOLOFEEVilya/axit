@@ -76,10 +76,13 @@
 }
 
 @media (max-width: 1170px) {
+    .container-preamble {
+        margin: 0 auto;
+    }
     .banner-container {
-        width: 100%;
+        width: 95%;
         height: 358px;
-        margin: 40px 16px;
+        margin: 0 auto;
     }
     .container__title-banner {
         width: 992px;
@@ -96,13 +99,12 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .banner {
         margin-top: 32px;
     }
     .banner-container {
         height: 358px;
-        margin: 0;
     }
     .container__title-banner {
         width: 288px;

@@ -111,9 +111,9 @@
 
 @media (max-width: 1170px) {
     .block-with-manager-container {
-        width: 100%;
+        width: 95%;
         height: 616px;
-        margin: 0 16px;
+        margin: 0 auto;
     }
     .saying {
         width: 100%;
@@ -160,7 +160,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .block-with-manager-container {
         height: 550px;
     }
@@ -177,6 +177,7 @@
         width: 288px;
     }
     .secondth {
+        width: 288px;
         margin-top: 62px;
         height: 61px;
     }
@@ -201,6 +202,14 @@
     .block-with-info {
         margin: 0;
     }
+    .block-with-info::after {
+        width: 25px;
+        height: 25px;
+        top: -135px;
+    }
+}
+
+@media (max-width: 320px) {
     .block-with-info__dots {
         display: block;
         width: 130px;

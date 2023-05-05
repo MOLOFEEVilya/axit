@@ -60,7 +60,7 @@
 
 @media (max-width: 1170px) {
     .block-with-social-container {
-        width: 100%;
+        width: 90%;
         height: 105px;
     }
     .text-info__title {
@@ -82,13 +82,14 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .block-with-social-container {
         height: 239px;
         display: flex;
         text-align: center;
         align-items: center;
         flex-flow: column;
+        width: 50%;
     }
     .text-info__title {
         display: inline-block;

@@ -30,6 +30,7 @@
 .title__text {
     width: 670px;
     height: 168px;
+    display: flex;
     color: white;
     font-family: 'Raleway';
     font-style: normal;
@@ -128,7 +129,7 @@
 .form-with-label__do-it {
     display: block;
     border: none;
-    width: 470px;
+    width: 100%;
     height: 60px;
     margin-top: 85px;
     background-color: #EC7979;
@@ -151,7 +152,7 @@
 
 @media (max-width: 1170px) {
     .frontpage-container {
-        width: 100%;
+        width: 95%;
         height: 695px;
     }
     .frontpage-container__title {
@@ -159,7 +160,7 @@
     }
     .title__text {
         font-size: 36px;
-        width: 455px;
+        width: 100%;
         height: 126px;
     }
     .logo__axit {
@@ -185,32 +186,30 @@
         margin-top: 32px;
     }
     .frontpage-container__container-with-form {
-        margin: 0 20px 0 40px;
+        margin: 0;
         width: 398px;
     }
     .container-with-form__title {
         font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1170 - 320)));
-        width: 298px;
+        width: 100%;
+        margin: 0 auto;
     }
     .title__input-form {
-        width: 298px;
-    }
-    .form-with-label__do-it {
-        width: 398px;
+        width: 85%;
+        margin: 50px 0 50px 20px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .frontpage-container {
         height: 1005px;
         display: flex;
         flex-flow: wrap;
     }
     .frontpage-container__title {
-        margin: 0 16px 0 16px ;
-        width: 288px;
+        width: 100%;
+        margin: 0;
         text-align: center;
-        align-items: center;
     }
     .title__text {
         height: 168px;
@@ -227,20 +226,14 @@
         margin-top: 42px;
     }
     .frontpage-container__container-with-form {
-    width: 288px;
-    height: 381px;
-    margin: 0 16px;
-    }
-    .container-with-form__title {
-        width: 240px;
-        margin: 0 28px 0 20px;
+        width: 100%;
+        height: 381px;
+        margin: 0;
     }
     .title__input-form {
-        width: 240px;
-        margin: 0 28px 50px 20px; 
+        margin: 0 20px 50px 20px;
     }
     .form-with-label__do-it {
-        width: 288px;
         margin-top: 66px;
     }
 }
