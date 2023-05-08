@@ -142,6 +142,7 @@
         flex-flow: column;
         height: 125px;
         gap: 26px;
+        align-items: center;
     }
     .block-with-offer__container {
         width: 288px;
