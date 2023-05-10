@@ -172,6 +172,7 @@
     }
     .center {
         width: 100%;
+        
     }
     .frame {
         width: 288px;
@@ -206,6 +207,8 @@
         width: 25px;
         height: 25px;
         top: -135px;
+        left: -81px;
+        margin: 0 auto;
     }
 }
 

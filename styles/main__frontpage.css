@@ -187,7 +187,7 @@
     }
     .frontpage-container__container-with-form {
         margin: 0;
-        width: 398px;
+        width: 470px;
     }
     .container-with-form__title {
         font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1170 - 320)));
@@ -218,11 +218,13 @@
         display: none;
     }
     .title__img {
+        margin: 0 auto;
         width: 134px;
-        margin: 45px 0 42px 75px;
+        margin-bottom: 42px;
     }
     .title__link {
         width: 288px;
+        margin: 0 auto;
         margin-top: 42px;
     }
     .frontpage-container__container-with-form {

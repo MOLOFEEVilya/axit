@@ -57,6 +57,9 @@ footer {
 @media (max-width: 1170px) {
     .header-container {
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .header-container__logo {
         margin-left: 115px;
@@ -64,11 +67,14 @@ footer {
 }
 
 @media (max-width: 1024px) {
-    .nav__link {
+    .header-container__nav {
         display: none;
     }
     .nav__img {
         display: block;
+        width: 20px;
+        height: 20px;
+        padding-right: 20px;
     }
     .header-container__logo {
         margin-left: 20px;
